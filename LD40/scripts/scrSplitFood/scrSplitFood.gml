@@ -1,13 +1,13 @@
-///scrSplitBrat(bratToSplit)
+///scrSplitFood(foodToSplit)
 
-var bratToSplit = argument0;
+var foodToSplit = argument0;
 
-with (bratToSplit) {
+with (foodToSplit) {
   numSplits++;  
-  var b1 = instance_create_layer(x, y + ySpeed, "Instances", objSBrat);
-  b1.numSplits = numSplits;  
+  var f1 = instance_create_layer(x, y + ySpeed, "Instances", objSBrat);
+  f1.numSplits = numSplits;  
   //This makes sure it doesn't split into/past the walls
-  with (b1) {
+  with (f1) {
     for (var i = 0; i < splitDist + xSpeed; ++i) {
       if (place_meeting(x + 1, y, objStomach)) {
         xSpeed *= -1;
@@ -19,15 +19,15 @@ with (bratToSplit) {
     }
   }
   //This changes the direction based on splitting
-  b1.xSpeed = sign(b1.x - x) * speedMult;
-  b1.ySpeed = sign(b1.y - y) * speedMult;
+  f1.xSpeed = sign(f1.x - x) * speedMult;
+  f1.ySpeed = sign(f1.y - y) * speedMult;
 
 
-  var b2 = instance_create_layer(x - xSpeed, y + ySpeed, "Instances", objSBrat);
-  b2.numSplits = numSplits;
+  var f2 = instance_create_layer(x - xSpeed, y + ySpeed, "Instances", objSBrat);
+  f2.numSplits = numSplits;
  
   //This makes sure it doesn't split into/past the walls
-  with (b2) {
+  with (f2) {
     for (var i = 0; i < splitDist + xSpeed; ++i) {
       if (place_meeting(x - 1, y, objStomach)) {
         xSpeed *= -1;
@@ -39,7 +39,7 @@ with (bratToSplit) {
     }
   }
   //This changes the direction based on splitting
-  b2.xSpeed = sign(b2.x - x) * speedMult;
-  b2.ySpeed = sign(b2.y - y) * speedMult;
+  f2.xSpeed = sign(f2.x - x) * speedMult;
+  f2.ySpeed = sign(f2.y - y) * speedMult;
   
 }

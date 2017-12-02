@@ -1,8 +1,8 @@
-/// @function scrHitAcid(whichBrat)
-/// @description wurst hits acid and is destroyed
-/// @param {objSBrat} whichBrat the wurst to hit the acid
+/// @function scrHitAcid(whichFood)
+/// @description food hits acid and is destroyed
+/// @param {objSFood} whichFood the food to hit the acid
 
-var whichBrat = argument0;
+var whichFood = argument0;
 
 //Decrease energy
 with (objCompetitionControl) {  
@@ -10,7 +10,7 @@ with (objCompetitionControl) {
 }
 
 //Currently a brat hitting acid just reduces competition energy
-with (whichBrat) {
+with (whichFood) {
   show_debug_message(string(self.id) + " hit the acid.");
   
   instance_destroy();

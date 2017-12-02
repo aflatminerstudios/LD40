@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 if (numSplits < maxSplits) {
-  scrSplitBrat(self.id);
+  scrSplitFood(self.id);
   instance_destroy();
 } else {
-  scrDestroyBrat(self.id);
+  scrDestroyFood(self.id);
 }

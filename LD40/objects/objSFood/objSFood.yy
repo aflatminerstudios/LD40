@@ -2,7 +2,7 @@
     "id": "814d9cf1-e88e-4745-8a2e-bf76974ae0d0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objSBrat",
+    "name": "objSFood",
     "eventList": [
         {
             "id": "4a177201-a8ab-4ebb-9393-b2879b89638d",
