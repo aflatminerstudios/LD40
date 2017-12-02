@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "1b933c24-92b7-49ca-bae8-c465dd4e2758",
+            "Value": {
+                "id": "93cc001e-852a-4528-bff9-8dd143270b6f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/1b933c24-92b7-49ca-bae8-c465dd4e2758.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "21d4f660-2a13-4031-84d6-a406289449b8",
             "Value": {
                 "id": "7ef0d774-250f-495f-92df-7a5c438d55b1",
@@ -153,6 +172,25 @@
             }
         },
         {
+            "Key": "2c25403a-2789-41c2-9743-8d7b1ac49177",
+            "Value": {
+                "id": "2d2f40c3-5868-41f6-80d6-d2f5405170ce",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrEsoFoodQueueLength\/scrEsoFoodQueueLength.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "459701f3-e32a-454c-93b4-e85a8c382df7",
             "Value": {
                 "id": "aebc419a-d6ae-4c61-a575-01018092856b",
@@ -205,7 +243,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\\scrDestroyFood\\scrDestroyFood.yy",
+                "resourcePath": "scripts\/scrDestroyFood\/scrDestroyFood.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -395,7 +433,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\objSFood\\objSFood.yy",
+                "resourcePath": "objects\/objSFood\/objSFood.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -438,6 +476,25 @@
             }
         },
         {
+            "Key": "875c95bc-65f5-4d84-b501-473178cf09e0",
+            "Value": {
+                "id": "f821fa2e-1d2e-44b5-b3e5-e6fbc7ff872b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrDefineMacros\/scrDefineMacros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "886aaee9-6f7a-4f47-8447-0a0060a3cbea",
             "Value": {
                 "id": "6b9784f7-81bb-451a-be2e-8b022e9eb792",
@@ -473,6 +530,25 @@
                 ],
                 "resourcePath": "views\/8aeb3d3b-0474-46f2-87b5-52ee296fea32.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8b9ac15b-48ff-4be0-b817-62bff086dd73",
+            "Value": {
+                "id": "970a4780-fdf6-4968-9473-1753e4818fd4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrEsoPopFoodFromQueue\/scrEsoPopFoodFromQueue.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -568,6 +644,25 @@
                 ],
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ae38bec2-2783-4aa2-886c-9570e318fd70",
+            "Value": {
+                "id": "dfda9409-b1e7-44e8-b4f6-063582357773",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objInitialSetup\/objInitialSetup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -723,6 +818,25 @@
             }
         },
         {
+            "Key": "d892187a-cd74-4b69-b7d1-db73571992b2",
+            "Value": {
+                "id": "17298d1e-93b2-4d0d-92ba-4e58129562b5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrEsoAddFoodToQueue\/scrEsoAddFoodToQueue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e346d116-c371-4810-9aa6-2c380a81f78e",
             "Value": {
                 "id": "beb18e2f-a694-4184-8f89-f69c8a4835e6",
@@ -794,7 +908,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\\scrSplitFood\\scrSplitFood.yy",
+                "resourcePath": "scripts\/scrSplitFood\/scrSplitFood.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -899,7 +1013,11 @@
         "4b139782-cbf1-443e-9d6b-5ca9c9715c97",
         "21d4f660-2a13-4031-84d6-a406289449b8",
         "ee9b8abe-993e-4ad0-bba5-a887797f8c86",
-        "ae97bd5e-c107-49a3-8c52-7b1cd3364d1b"
+        "ae97bd5e-c107-49a3-8c52-7b1cd3364d1b",
+        "d892187a-cd74-4b69-b7d1-db73571992b2",
+        "8b9ac15b-48ff-4be0-b817-62bff086dd73",
+        "2c25403a-2789-41c2-9743-8d7b1ac49177",
+        "875c95bc-65f5-4d84-b501-473178cf09e0"
     ],
     "tutorial": ""
 }
