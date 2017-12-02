@@ -8,7 +8,7 @@ if (esophagus.foodItems > 0) {
   r -= (containerWidth - 64)/ 2;
 
   //TODO: Spawn different types of food
-  instance_create_layer(x - r, y + 30, "Instances", objSBrat);
+  instance_create_layer(x - r, y + 30, "Instances", objSFood);
 
   esophagus.foodItems--;
 

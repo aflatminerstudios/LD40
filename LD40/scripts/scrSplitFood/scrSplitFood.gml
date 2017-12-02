@@ -4,7 +4,7 @@ var foodToSplit = argument0;
 
 with (foodToSplit) {
   numSplits++;  
-  var f1 = instance_create_layer(x, y + ySpeed, "Instances", objSBrat);
+  var f1 = instance_create_layer(x, y + ySpeed, "Instances", objSFood);
   f1.numSplits = numSplits;  
   //This makes sure it doesn't split into/past the walls
   with (f1) {
@@ -23,7 +23,7 @@ with (foodToSplit) {
   f1.ySpeed = sign(f1.y - y) * speedMult;
 
 
-  var f2 = instance_create_layer(x - xSpeed, y + ySpeed, "Instances", objSBrat);
+  var f2 = instance_create_layer(x - xSpeed, y + ySpeed, "Instances", objSFood);
   f2.numSplits = numSplits;
  
   //This makes sure it doesn't split into/past the walls
