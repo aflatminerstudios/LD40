@@ -9,4 +9,4 @@ foodItems = 0; // Remove when queue system is finalized  --  Micha TODO
 foodQueue = ds_queue_create();
 
 acidLevel = 0;
-acidIncreaseRate = 1;
+acidIncreaseRate = 0.015;

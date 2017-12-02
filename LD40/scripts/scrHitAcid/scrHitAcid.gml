@@ -4,12 +4,6 @@
 
 var whichFood = argument0;
 
-//TODO: Remove this
-//Decrease energy
-with (objCompetitionControl) {  
-  energy -= energyLossRate; 
-}
-
 //Increase acid level
 with(objEsophagusControl) {
   acidLevel += acidIncreaseRate * (1 / power(whichFood.maxSplits, whichFood.numSplits));  
