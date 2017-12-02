@@ -15,3 +15,4 @@ instance_create_layer(0, 0, "Competition_UI", objCompEnergyMeter);
 // Create initial food (First one shold always be a wurst)
 currentFood = scrCompCreateWurst();
 
+//remove this comment if you see it
