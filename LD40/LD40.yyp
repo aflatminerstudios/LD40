@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "5fbbb437-0dcb-42b0-93c5-3225a965dd01",
+            "Value": {
+                "id": "a38cc3c1-1058-446c-9f12-d5dbb558cc40",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objCompetitionControl\/objCompetitionControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "701c2704-4219-44e1-92aa-2248ff174ae1",
             "Value": {
                 "id": "50544e49-d7f4-4e1f-9726-3a3dccfb9243",
@@ -131,6 +150,25 @@
                 ],
                 "resourcePath": "views\/701c2704-4219-44e1-92aa-2248ff174ae1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "729154f8-4b2d-4dc9-b7a9-15eaa16523ac",
+            "Value": {
+                "id": "d64f916d-df99-4ac1-82fa-6c15e1f84dee",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objEsophagusControl\/objEsophagusControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -319,7 +357,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\/roomMain\/roomMain.yy",
                 "resourceType": "GMRoom"
             }
         },
