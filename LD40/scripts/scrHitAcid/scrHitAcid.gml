@@ -12,13 +12,11 @@ with (objCompetitionControl) {
 
 //Increase acid level
 with(objEsophagusControl) {
-  acidLevel += acidIncreaseRate; 
+  acidLevel += acidIncreaseRate * (1 / power(whichFood.maxSplits, whichFood.numSplits));  
 }
 
 
 //Currently a brat hitting acid just reduces competition energy
 with (whichFood) {
-  show_debug_message(string(self.id) + " hit the acid.");
-  
   instance_destroy();
 }
