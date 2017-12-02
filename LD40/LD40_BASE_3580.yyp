@@ -58,22 +58,6 @@
             }
         },
         {
-            "Key": "0cde32e1-e4d7-41a2-90a0-0c0dc39cba36",
-            "Value": {
-                "id": "9b6c807a-2e5c-4ea7-98a8-114161e5b326",
-                "resourcePath": "objects\\objAcid\\objAcid.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "21d4f660-2a13-4031-84d6-a406289449b8",
-            "Value": {
-                "id": "7ef0d774-250f-495f-92df-7a5c438d55b1",
-                "resourcePath": "scripts\\scrHitAcid\\scrHitAcid.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "261e5f8c-40aa-4213-a670-fd4cd308c355",
             "Value": {
                 "id": "cddb8158-ec79-4fc4-8b18-409837f2c4e6",
@@ -131,49 +115,6 @@
             }
         },
         {
-            "Key": "4b139782-cbf1-443e-9d6b-5ca9c9715c97",
-            "Value": {
-                "id": "d5a2c240-dfa5-406f-b00c-01b0ef981d8b",
-                "resourcePath": "scripts\\scrDestroyBrat\\scrDestroyBrat.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "4b735269-9fb1-4a83-bc41-428812063d10",
-            "Value": {
-                "id": "664994e1-9f25-4b33-9427-4d307ad81692",
-                "resourcePath": "sprites\\sprSBrat\\sprSBrat.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4eb493cd-7e1e-4949-b77a-3acb5442c803",
-            "Value": {
-                "id": "06021a1b-33f0-440c-8f48-f05cab971551",
-                "resourcePath": "sprites\\sprAcid\\sprAcid.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "46d3091f-2f0b-40f9-813b-b45500c0a2f5",
-            "Value": {
-                "id": "09b60a3b-7c16-4e0e-a542-133ea9874e7e",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/objCBratwurst\/objCBratwurst.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5fbbb437-0dcb-42b0-93c5-3225a965dd01",
             "Value": {
                 "id": "a38cc3c1-1058-446c-9f12-d5dbb558cc40",
@@ -190,22 +131,6 @@
                 ],
                 "resourcePath": "objects\/objCompetitionControl\/objCompetitionControl.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6d0e56a4-2fde-4d1c-99bb-afb5cd28cb30",
-            "Value": {
-                "id": "d97d607e-9e70-4f2b-9f83-3e604f4e34b2",
-                "resourcePath": "sprites\\sprStomach\\sprStomach.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6febd56f-8002-4fc5-b824-f963673d8c15",
-            "Value": {
-                "id": "eba80389-e30c-475e-ab3a-5252c163c9a5",
-                "resourcePath": "views\\6febd56f-8002-4fc5-b824-f963673d8c15.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -282,14 +207,6 @@
                 ],
                 "resourcePath": "views\/78b7f717-413b-47c9-8dd1-f7f57be7814f.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "814d9cf1-e88e-4745-8a2e-bf76974ae0d0",
-            "Value": {
-                "id": "370bbd85-61e0-4028-b95b-d2d36317596b",
-                "resourcePath": "objects\\objSBrat\\objSBrat.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -388,14 +305,6 @@
             }
         },
         {
-            "Key": "9f6da052-b071-4f1f-8dae-28852bb49577",
-            "Value": {
-                "id": "0ad20651-11bb-48c7-9874-c888707d292d",
-                "resourcePath": "views\\9f6da052-b071-4f1f-8dae-28852bb49577.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "d212e06a-2a0e-4a0d-85ac-6f0b4673aece",
@@ -453,25 +362,6 @@
             }
         },
         {
-            "Key": "b9285c55-c7d6-424e-bd2b-8df321969a5d",
-            "Value": {
-                "id": "38e33638-4989-4035-ac88-4b1bac20855e",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "views\/b9285c55-c7d6-424e-bd2b-8df321969a5d.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "c5637b99-6ff8-4915-81ec-0acc79541066",
             "Value": {
                 "id": "18ddb532-18f5-4f41-8b66-8f7f0e4a0f96",
@@ -507,14 +397,6 @@
                 ],
                 "resourcePath": "views\/c783a075-faa9-4285-a899-0c2042bfc470.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c9c4e504-271a-4412-add3-0a1e4ffc66ca",
-            "Value": {
-                "id": "d801ffa0-82a5-476a-83a1-fee394b908fc",
-                "resourcePath": "objects\\objStomachControl\\objStomachControl.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -613,14 +495,6 @@
             }
         },
         {
-            "Key": "ee2e58f9-aa5e-4481-9cd3-6e9cea030979",
-            "Value": {
-                "id": "aba4c557-0cb2-451f-af91-4f4badd2b312",
-                "resourcePath": "scripts\\scrSplitBrat\\scrSplitBrat.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "eed54c64-ece7-4dd8-8652-c2431b6acb6e",
             "Value": {
                 "id": "1fa93ab6-535a-4a66-994e-618865061d74",
@@ -657,39 +531,10 @@
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
-        },
-	{
-            "Key": "f4ac9fe9-fe7d-47d0-8adb-64da76afaf70",
-            "Value": {
-                "id": "77587b15-7d7d-4f56-ac8b-9b1bc7870ef7",
-                "resourcePath": "objects\\objStomach\\objStomach.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f990dad8-31dd-43a7-bc09-802b2608549b",
-            "Value": {
-                "id": "07871eb8-86f2-438f-871a-9d8592ec79ad",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/sprCBratwurst\/sprCBratwurst.yy",
-                "resourceType": "GMSprite"
-            }
         }
     ],
     "script_order": [
-        "ee2e58f9-aa5e-4481-9cd3-6e9cea030979",
-        "4b139782-cbf1-443e-9d6b-5ca9c9715c97",
-        "21d4f660-2a13-4031-84d6-a406289449b8"
+        
     ],
     "tutorial": ""
 }
