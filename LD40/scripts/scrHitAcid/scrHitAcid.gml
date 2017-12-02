@@ -4,10 +4,17 @@
 
 var whichFood = argument0;
 
+//TODO: Remove this
 //Decrease energy
 with (objCompetitionControl) {  
   energy -= energyLossRate; 
 }
+
+//Increase acid level
+with(objEsophagusControl) {
+  acidLevel += acidIncreaseRate; 
+}
+
 
 //Currently a brat hitting acid just reduces competition energy
 with (whichFood) {
