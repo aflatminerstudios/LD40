@@ -2,7 +2,7 @@
     "id": "46d3091f-2f0b-40f9-813b-b45500c0a2f5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objCBratwurst",
+    "name": "objCompBratwurst",
     "eventList": [
         {
             "id": "76fd07fc-b9a0-4879-aa6d-6352e4a5996d",
