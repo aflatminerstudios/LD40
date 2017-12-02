@@ -476,6 +476,25 @@
             }
         },
         {
+            "Key": "875c95bc-65f5-4d84-b501-473178cf09e0",
+            "Value": {
+                "id": "f821fa2e-1d2e-44b5-b3e5-e6fbc7ff872b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrDefineMacros\/scrDefineMacros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "886aaee9-6f7a-4f47-8447-0a0060a3cbea",
             "Value": {
                 "id": "6b9784f7-81bb-451a-be2e-8b022e9eb792",
@@ -625,6 +644,25 @@
                 ],
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ae38bec2-2783-4aa2-886c-9570e318fd70",
+            "Value": {
+                "id": "dfda9409-b1e7-44e8-b4f6-063582357773",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objInitialSetup\/objInitialSetup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -978,7 +1016,8 @@
         "ae97bd5e-c107-49a3-8c52-7b1cd3364d1b",
         "d892187a-cd74-4b69-b7d1-db73571992b2",
         "8b9ac15b-48ff-4be0-b817-62bff086dd73",
-        "2c25403a-2789-41c2-9743-8d7b1ac49177"
+        "2c25403a-2789-41c2-9743-8d7b1ac49177",
+        "875c95bc-65f5-4d84-b501-473178cf09e0"
     ],
     "tutorial": ""
 }
