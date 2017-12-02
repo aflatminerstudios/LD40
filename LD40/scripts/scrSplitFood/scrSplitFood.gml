@@ -13,7 +13,6 @@ with (foodToSplit) {
         xSpeed *= -1;
         break;
       } else {
-        show_debug_message(i);
         x += 1;
       }
     }
@@ -33,7 +32,6 @@ with (foodToSplit) {
         xSpeed *= -1;
         break;
       } else {
-        show_debug_message(i);
         x -= 1;        
      }
     }

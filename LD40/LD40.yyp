@@ -243,7 +243,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scrDestroyFood\/scrDestroyFood.yy",
+                "resourcePath": "scripts\\scrDestroyFood\\scrDestroyFood.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -263,6 +263,14 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprSBrat\/sprSBrat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b824577-e1f2-4190-870d-f6d4fb3e3e94",
+            "Value": {
+                "id": "18b09b94-07b6-4de8-810e-d2fcde578bc9",
+                "resourcePath": "sprites\\sprStomachMask\\sprStomachMask.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,6 +370,14 @@
             }
         },
         {
+            "Key": "71a469c9-605d-4234-959c-2f61b6621df1",
+            "Value": {
+                "id": "ef13dfcb-ffad-4fc9-8580-366441a2dca3",
+                "resourcePath": "sprites\\sprAcid1\\sprAcid1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "729154f8-4b2d-4dc9-b7a9-15eaa16523ac",
             "Value": {
                 "id": "d64f916d-df99-4ac1-82fa-6c15e1f84dee",
@@ -433,7 +449,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/objSFood\/objSFood.yy",
+                "resourcePath": "objects\\objSFood\\objSFood.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -908,7 +924,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scrSplitFood\/scrSplitFood.yy",
+                "resourcePath": "scripts\\scrSplitFood\\scrSplitFood.yy",
                 "resourceType": "GMScript"
             }
         },
