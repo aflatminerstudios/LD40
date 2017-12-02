@@ -1,18 +1,18 @@
 {
-    "id": "46d3091f-2f0b-40f9-813b-b45500c0a2f5",
+    "id": "459701f3-e32a-454c-93b4-e85a8c382df7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objCBratwurst",
+    "name": "objCompEnergyMeter",
     "eventList": [
         {
-            "id": "76fd07fc-b9a0-4879-aa6d-6352e4a5996d",
+            "id": "2df0b1d7-633d-4aee-900e-51ed5c58ba5f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "46d3091f-2f0b-40f9-813b-b45500c0a2f5"
+            "eventtype": 8,
+            "m_owner": "459701f3-e32a-454c-93b4-e85a8c382df7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "f990dad8-31dd-43a7-bc09-802b2608549b",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
