@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "46d3091f-2f0b-40f9-813b-b45500c0a2f5",
+            "Value": {
+                "id": "09b60a3b-7c16-4e0e-a542-133ea9874e7e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objCBratwurst\/objCBratwurst.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5fbbb437-0dcb-42b0-93c5-3225a965dd01",
             "Value": {
                 "id": "a38cc3c1-1058-446c-9f12-d5dbb558cc40",
@@ -362,6 +381,25 @@
             }
         },
         {
+            "Key": "b9285c55-c7d6-424e-bd2b-8df321969a5d",
+            "Value": {
+                "id": "38e33638-4989-4035-ac88-4b1bac20855e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/b9285c55-c7d6-424e-bd2b-8df321969a5d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c5637b99-6ff8-4915-81ec-0acc79541066",
             "Value": {
                 "id": "18ddb532-18f5-4f41-8b66-8f7f0e4a0f96",
@@ -530,6 +568,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f990dad8-31dd-43a7-bc09-802b2608549b",
+            "Value": {
+                "id": "07871eb8-86f2-438f-871a-9d8592ec79ad",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprCBratwurst\/sprCBratwurst.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
