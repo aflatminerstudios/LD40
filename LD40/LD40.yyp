@@ -153,6 +153,25 @@
             }
         },
         {
+            "Key": "459701f3-e32a-454c-93b4-e85a8c382df7",
+            "Value": {
+                "id": "aebc419a-d6ae-4c61-a575-01018092856b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objCompEnergyMeter\/objCompEnergyMeter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "46d3091f-2f0b-40f9-813b-b45500c0a2f5",
             "Value": {
                 "id": "09b60a3b-7c16-4e0e-a542-133ea9874e7e",

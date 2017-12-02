@@ -3,4 +3,4 @@
 energy = energy - energyLossRate/room_speed;
 
 // Clamp energy level
-energy = clamp(energy, 0, 100);
+energy = clamp(energy, 0, energyMax);
