@@ -1,13 +1,13 @@
 /// @description Initialize Variables
 // You can write your code in this editor
 
+//For splitting
 maxSplits = 2;
-
 numSplits = 0;
+speedMult = 1.5;
+splitDist = 50;
 
-alarm[0] = 1;
-
+//For moving
 xSpeed = 0;
 ySpeed = 1;
-
-speedMult = 1.5;
+alarm[0] = 1;
