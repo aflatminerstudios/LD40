@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "33cd08df-9e3e-4e41-a9ef-33cfc5bd92d7",
+            "Value": {
+                "id": "adfdc107-5dc4-4a96-9b4d-601a020f978a",
+                "resourcePath": "fonts\\fontGameOverSmall\\fontGameOverSmall.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "34bd6695-6695-45c6-ab3d-015a36e31b7f",
             "Value": {
                 "id": "4e51594b-b827-4bcf-96b3-37d30d761d60",
@@ -554,19 +562,16 @@
             "Key": "b3da43d9-2f16-47f1-9381-d6c709466751",
             "Value": {
                 "id": "8fab1216-4de7-4f73-aa03-052e19d27a1c",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprCompCelery\/sprCompCelery.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b51a428f-804e-4fb8-ba84-c2b90faecdd0",
+            "Value": {
+                "id": "ebfa3495-ae8e-4a87-a52e-52f022564d94",
+                "resourcePath": "fonts\\fontGameOverLarge\\fontGameOverLarge.yy",
+                "resourceType": "GMFont"
             }
         },
         {
