@@ -11,7 +11,7 @@ var barTopY = 30;
 var energy = objCompetitionControl.energy;
 var energyMax = objCompetitionControl.energyMax;
 var energyPercent = energy/energyMax;
-var acidPercent = objEsophagusControl.acidLevel - objEsophagusControl.acidMin;
+var acidPercent = clamp(objEsophagusControl.acidLevel - objEsophagusControl.acidMin, 0, 1);
 
 var barRightX = barLeftX + barWidth
 var barBottomY = barTopY + barHeight;
