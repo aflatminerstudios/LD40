@@ -279,18 +279,18 @@
             }
         },
         {
-            "Key": "741e3bff-c927-4b59-abe9-4c26e3822064",
-            "Value": {
-                "id": "854021aa-dd29-418f-9f63-4fc890b8bcc7",
-                "resourcePath": "objects\\objFoodInEsophagus\\objFoodInEsophagus.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "729154f8-4b2d-4dc9-b7a9-15eaa16523ac",
             "Value": {
                 "id": "d64f916d-df99-4ac1-82fa-6c15e1f84dee",
                 "resourcePath": "objects\/objEsophagusControl\/objEsophagusControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "741e3bff-c927-4b59-abe9-4c26e3822064",
+            "Value": {
+                "id": "854021aa-dd29-418f-9f63-4fc890b8bcc7",
+                "resourcePath": "objects\\objFoodInEsophagus\\objFoodInEsophagus.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -544,8 +544,8 @@
         }
     ],
     "script_order": [
-        "ee2e58f9-aa5e-4481-9cd3-6e9cea030979",
         "4b139782-cbf1-443e-9d6b-5ca9c9715c97",
+        "ee2e58f9-aa5e-4481-9cd3-6e9cea030979",
         "21d4f660-2a13-4031-84d6-a406289449b8",
         "71517c31-359b-4f5b-9441-137f63ad0265",
         "3c675645-417e-47e7-b355-7085da5223bd",
