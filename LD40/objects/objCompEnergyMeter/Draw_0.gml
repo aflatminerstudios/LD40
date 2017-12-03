@@ -4,7 +4,7 @@
 var barHeight = room_height*0.75;
 var barWidth = 20;
 var barBorderWidth = 1.0;
-var barLeftX = 40;
+var barLeftX = 30;
 var barTopY = 30;
 
 // Derived values
