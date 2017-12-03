@@ -13,6 +13,4 @@ if ((oldAcidLevel < currentAcidLevel && stomach != noone)) {
   
   y = stomach.y + (1 - oldAcidLevel) * sprite_get_height(stomach.sprite_index);
 
-  show_debug_message(string(oldAcidLevel) + " to " + string(currentAcidLevel));
-
 }
