@@ -7,4 +7,4 @@ var foodSprite = sprSBrat;
 var r = irandom(objStomachControl.containerWidth - sprite_get_width(sprSBrat));
 r -= (objStomachControl.containerWidth - sprite_get_width(sprSBrat))/ 2;
   
-instance_create_layer(objStomachControl.x - r, objStomachControl.y + 30, "Instances", objSFood);
+instance_create_layer(objStomachControl.x - r, objStomachControl.y + 100, "Instances", objSBrat);

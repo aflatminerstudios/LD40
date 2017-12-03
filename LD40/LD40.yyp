@@ -95,11 +95,35 @@
             }
         },
         {
+            "Key": "34bd6695-6695-45c6-ab3d-015a36e31b7f",
+            "Value": {
+                "id": "4e51594b-b827-4bcf-96b3-37d30d761d60",
+                "resourcePath": "views\\34bd6695-6695-45c6-ab3d-015a36e31b7f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "37bc0887-69be-4767-be7d-2d39f6adb166",
+            "Value": {
+                "id": "b8cdff7f-0de3-43d0-be12-b136405048f3",
+                "resourcePath": "sprites\\sprSBratHalf\\sprSBratHalf.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c675645-417e-47e7-b355-7085da5223bd",
             "Value": {
                 "id": "dc8371cd-0392-49f7-a695-a67f1ee3348f",
                 "resourcePath": "scripts\\scrStomachCreateBratwurst\\scrStomachCreateBratwurst.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3d54c3c8-50f1-498d-8e2f-586d50c70ca9",
+            "Value": {
+                "id": "5719d3ab-50a8-4bd2-a10f-8ed72ad64eb7",
+                "resourcePath": "sprites\\sprSBratQuarter\\sprSBratQuarter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -324,6 +348,14 @@
                 "id": "38e33638-4989-4035-ac88-4b1bac20855e",
                 "resourcePath": "views\/b9285c55-c7d6-424e-bd2b-8df321969a5d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bb196d66-433f-4fca-a778-9c95fe867d67",
+            "Value": {
+                "id": "78be4517-625a-4b24-8937-7ba2f1b437a7",
+                "resourcePath": "objects\\objSBrat\\objSBrat.yy",
+                "resourceType": "GMObject"
             }
         },
         {
