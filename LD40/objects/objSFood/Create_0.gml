@@ -16,3 +16,4 @@ sprites[0] = noone;
 sprites[1] = noone;
 sprites[2] = noone;
 
+acidIncreaseRate = 0.01;
