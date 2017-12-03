@@ -3,6 +3,5 @@
 
 stomachSpeedMult *= speedRateChange;
 spawnTime -= spawnRateChange;
-spawnTime = clamp(spawnTime, minSpawnTime, room_speed * 2);
-stomachSpeedMult = clamp(stomachSpeedMult, minSpeedMult, maxSpeedMult);
+clamp(spawnTime, 1, room_speed * 2);
 alarm[1] = difficultyTime;

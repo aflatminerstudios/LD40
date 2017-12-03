@@ -14,17 +14,14 @@ esophagus = instance_find(objEsophagusControl, 0);
 
 baseSpawnTime = room_speed * 0.65;
 spawnTime = baseSpawnTime;
-minSpawnTime = room_speed * 0.25;
 spawnRateChange = 1;
-
 
 baseStomachSpeedMult = 1.0;
 stomachSpeedMult = baseStomachSpeedMult;
-minSpeedMult = 0.5;
-maxSpeedMult = 3.0;
 speedRateChange = 1.07;
 
-difficultyTime = room_speed * 10;
+
+difficultyTime = room_speed * 5;
 alarm[1] = difficultyTime;
 
 

@@ -9,7 +9,7 @@ if ((oldAcidLevel < currentAcidLevel && stomach != noone)) {
     sprCreate = true;
   }*/
   oldAcidLevel += acidGrowSpeed;
-  oldAcidLevel = clamp(oldAcidLevel, 0, currentAcidLevel);
+  clamp(oldAcidLevel, 0, currentAcidLevel);
   
   y = stomach.y + (1 - oldAcidLevel) * sprite_get_height(stomach.sprite_index);
 

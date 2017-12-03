@@ -5,8 +5,6 @@
 maxSplits = 2;
 numSplits = 0;
 speedMult = 1.5;
-
-splitMult = 1.5;
 splitDist = 50;
 
 //For moving

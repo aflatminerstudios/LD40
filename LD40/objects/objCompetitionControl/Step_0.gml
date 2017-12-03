@@ -8,5 +8,5 @@ energy = clamp(energy, 0, energyMax);
 var acidPercent = (objEsophagusControl.acidLevel - objEsophagusControl.acidMin) * 100;
 
 if (acidPercent >= energy) {
-  scrGameOver();
+  alarm[0] = 1; 
 }

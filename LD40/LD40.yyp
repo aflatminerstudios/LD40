@@ -172,14 +172,6 @@
             }
         },
         {
-            "Key": "2438cc0f-5044-4009-8fb0-4a61c54161ce",
-            "Value": {
-                "id": "50e1697f-6811-4dd6-8e52-543228f3be04",
-                "resourcePath": "sprites\\sprShooter\\sprShooter.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "261e5f8c-40aa-4213-a670-fd4cd308c355",
             "Value": {
                 "id": "cddb8158-ec79-4fc4-8b18-409837f2c4e6",
@@ -310,14 +302,6 @@
                 ],
                 "resourcePath": "sprites\/sprEsophagusFood\/sprEsophagusFood.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "33cd08df-9e3e-4e41-a9ef-33cfc5bd92d7",
-            "Value": {
-                "id": "adfdc107-5dc4-4a96-9b4d-601a020f978a",
-                "resourcePath": "fonts\\fontGameOverSmall\\fontGameOverSmall.yy",
-                "resourceType": "GMFont"
             }
         },
         {
@@ -470,14 +454,6 @@
                 ],
                 "resourcePath": "paths\/pathThroughEsophagus\/pathThroughEsophagus.yy",
                 "resourceType": "GMPath"
-            }
-        },
-        {
-            "Key": "46471783-fce2-49c1-a945-ad0aa73d8bb5",
-            "Value": {
-                "id": "4db6629b-f51b-4c68-8120-41f42d07a172",
-                "resourcePath": "scripts\\scrGameOver\\scrGameOver.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -706,14 +682,6 @@
                 ],
                 "resourcePath": "sprites\/sprCompetitor\/sprCompetitor.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "66a7736d-9b88-4d1f-97f4-08295e0708d7",
-            "Value": {
-                "id": "86bf4f17-7a66-47b3-bc8b-093fd993b8f1",
-                "resourcePath": "objects\\objShooter\\objShooter.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1192,14 +1160,6 @@
             }
         },
         {
-            "Key": "98f06495-5907-408e-8696-295023d6ddd4",
-            "Value": {
-                "id": "4ad32a2d-3050-4c0a-b527-701fc5fe62fc",
-                "resourcePath": "objects\\objBullet\\objBullet.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9bb48c06-8e65-4159-b08f-35dfd303a233",
             "Value": {
                 "id": "64ff7dd2-32f6-4f3e-81a4-13dbda6d3fa1",
@@ -1352,14 +1312,6 @@
             }
         },
         {
-            "Key": "ad728797-58e3-4b3f-9790-144d5cf8eb2c",
-            "Value": {
-                "id": "e8e3bd74-5cb6-423c-9abf-3f493bc706a2",
-                "resourcePath": "sprites\\sprBullet\\sprBullet.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ae38bec2-2783-4aa2-886c-9570e318fd70",
             "Value": {
                 "id": "dfda9409-b1e7-44e8-b4f6-063582357773",
@@ -1420,16 +1372,19 @@
             "Key": "b3da43d9-2f16-47f1-9381-d6c709466751",
             "Value": {
                 "id": "8fab1216-4de7-4f73-aa03-052e19d27a1c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
                 "resourcePath": "sprites\/sprCompCelery\/sprCompCelery.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b51a428f-804e-4fb8-ba84-c2b90faecdd0",
-            "Value": {
-                "id": "ebfa3495-ae8e-4a87-a52e-52f022564d94",
-                "resourcePath": "fonts\\fontGameOverLarge\\fontGameOverLarge.yy",
-                "resourceType": "GMFont"
             }
         },
         {
@@ -1524,14 +1479,6 @@
                     "default"
                 ],
                 "resourcePath": "objects\/objStomachControl\/objStomachControl.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ca7b9ea7-cd13-4012-9ce9-9ba9878ef91c",
-            "Value": {
-                "id": "d71b46ea-86c3-4297-8545-f5c70942f2ec",
-                "resourcePath": "objects\\objStats\\objStats.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1875,8 +1822,7 @@
         "2c25403a-2789-41c2-9743-8d7b1ac49177",
         "4b5ee985-0c9b-4fd8-9d94-032bc3ab292b",
         "875c95bc-65f5-4d84-b501-473178cf09e0",
-        "9bb48c06-8e65-4159-b08f-35dfd303a233",
-        "46471783-fce2-49c1-a945-ad0aa73d8bb5"
+        "9bb48c06-8e65-4159-b08f-35dfd303a233"
     ],
     "tutorial": ""
 }
