@@ -1,6 +1,8 @@
 /// scrHoldFood()
 
-objCompetitor.image_index = objCompetitor.holdingImageIndex;
-objCompetitor.image_speed = objCompetitor.holdingImageSpeed;
+var competitor = global.competitor;
 
-objCompetitor.state = COMPETITOR_HOLDING;
+competitor.image_index = competitor.holdingImageIndex;
+competitor.image_speed = competitor.holdingImageSpeed;
+
+competitor.state = COMPETITOR_HOLDING;
