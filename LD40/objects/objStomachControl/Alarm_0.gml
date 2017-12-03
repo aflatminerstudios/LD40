@@ -3,7 +3,13 @@
 
 
 //Only spawn if there is a food item in the esophagus
-if (esophagus.foodItems > 0) {
+if (scrEsoFoodQueueLength() > 0) {
+  
+  
+  scrStomachCreateFood(); 
+}
+
+/*if (esophagus.foodItems > 0) {
   var r = irandom(containerWidth - 64);
   r -= (containerWidth - 64)/ 2;
 
@@ -13,6 +19,6 @@ if (esophagus.foodItems > 0) {
   esophagus.foodItems--;
 
 }
-
+*/
 
 alarm[0] = spawnTime;

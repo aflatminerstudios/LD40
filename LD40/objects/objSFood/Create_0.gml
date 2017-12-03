@@ -11,3 +11,8 @@ splitDist = 50;
 xSpeed = 0;
 ySpeed = 1;
 alarm[0] = 1;
+
+sprites[0] = noone;
+sprites[1] = noone;
+sprites[2] = noone;
+
