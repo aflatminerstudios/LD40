@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "843ab8fd-6855-4569-9cae-09205fe53cd6",
+            "Value": {
+                "id": "9c53606b-4e19-4a00-bc54-5412ca5b3ac1",
+                "resourcePath": "objects\\objStomachShadow\\objStomachShadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "875c95bc-65f5-4d84-b501-473178cf09e0",
             "Value": {
                 "id": "f821fa2e-1d2e-44b5-b3e5-e6fbc7ff872b",
@@ -620,6 +628,14 @@
                 "id": "78be4517-625a-4b24-8937-7ba2f1b437a7",
                 "resourcePath": "objects\/objSBrat\/objSBrat.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c1555469-8f8f-470a-8e6a-0806306a8bc0",
+            "Value": {
+                "id": "48c2e9eb-055c-4a21-87bd-4d872f9cc385",
+                "resourcePath": "sprites\\sprStomachShadow\\sprStomachShadow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
