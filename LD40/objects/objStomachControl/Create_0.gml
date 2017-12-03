@@ -24,7 +24,7 @@ minSpeedMult = 0.5;
 maxSpeedMult = 5.0;
 speedRateChange = 1.10;
 
-difficultyTime = room_speed * 7;
+difficultyTime = room_speed * 7; 
 alarm[1] = difficultyTime;
 
 
