@@ -12,13 +12,15 @@ switch(foodType) {
 		energyValue = ENERGY_CELERY;
 		sprite_index = sprCompCelery;
 		image_index = 0;
+    var s = "Celery";
 		break;
 	
 	case FOOD_BRATWURST:
 	default:
-		energyLevel = ENERGY_BRATWURST;
+		energyValue = ENERGY_BRATWURST;
 		sprite_index = sprCompBratwurst;
 		image_index = 0;
+    var s = "Bratwurst";
 		break;
 		
 }
