@@ -1,12 +1,13 @@
 /// scrEatFood()
 
-objCompetitor.image_index = objCompetitor.eatingImageIndex;
-objCompetitor.image_speed = objCompetitor.eatingImageSpeed;
+var competitor = global.competitor;
 
-objCompetitor.alarm[1] = image_number - eatingImageIndex;
+competitor.image_index = competitor.eatingImageIndex;
+competitor.image_speed = competitor.eatingImageSpeed;
 
-objCompetitor.state = COMPETITOR_EATING;
+competitor.alarm[1] = (competitor.image_number - competitor.eatingImageIndex)/competitor.eatingImageSpeed;
 
-with(objCompFood) {
-	instance_destroy();
-}
+competitor.state = COMPETITOR_EATING;
+
+
+objCompFood.image_alpha = 0;

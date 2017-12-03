@@ -5,11 +5,13 @@ with(objCompFood) {
 	instance_destroy();
 }
 
-objCompetitor.image_index = objCompetitor.orderingImageIndex;
-objCompetitor.image_speed = objCompetitor.orderingImageSpeed;
+var competitor = global.competitor;
+
+competitor.image_index = competitor.orderingImageIndex;
+competitor.image_speed = competitor.orderingImageSpeed;
+
+competitor.alarm[0] = competitor.holdingImageIndex / competitor.orderingImageSpeed;
+
+competitor.state = COMPETITOR_ORDERING;
 
 instance_create_layer(x, y, "Competitor", objCompFood);
-
-objCompetitor.alarm[0] = holdingImageIndex;
-
-objCompetitor.state = COMPETITOR_ORDERING;

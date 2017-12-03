@@ -1198,6 +1198,25 @@
             }
         },
         {
+            "Key": "b3da43d9-2f16-47f1-9381-d6c709466751",
+            "Value": {
+                "id": "8fab1216-4de7-4f73-aa03-052e19d27a1c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprCompCelery\/sprCompCelery.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b9285c55-c7d6-424e-bd2b-8df321969a5d",
             "Value": {
                 "id": "38e33638-4989-4035-ac88-4b1bac20855e",
