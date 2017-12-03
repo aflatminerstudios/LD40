@@ -10,4 +10,4 @@ foodQueue = ds_queue_create();
 readyQueue = ds_queue_create();
 
 acidLevel = 0.15;
-acidIncreaseRate = 0.01;
+
