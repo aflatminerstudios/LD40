@@ -8,7 +8,7 @@ case FOOD_BRATWURST:
   scrStomachCreateBratwurst(); 
   break;
 case FOOD_CELERY:
-  show_debug_message("ERROR: Attempting to create celery, can't do that yet!");
+  scrStomachCreateCelery();
   break;
 default:
   scrStomachCreateBratwurst(); 
