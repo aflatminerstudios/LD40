@@ -1435,18 +1435,23 @@
         {
             "Key": "b9285c55-c7d6-424e-bd2b-8df321969a5d",
             "Value": {
+                "id": "8fab1216-4de7-4f73-aa03-052e19d27a1c",
+                "resourcePath": "sprites\/sprCompCelery\/sprCompCelery.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b51a428f-804e-4fb8-ba84-c2b90faecdd0",
+            "Value": {
+                "id": "ebfa3495-ae8e-4a87-a52e-52f022564d94",
+                "resourcePath": "fonts\\fontGameOverLarge\\fontGameOverLarge.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "b9285c55-c7d6-424e-bd2b-8df321969a5d",
+            "Value": {
                 "id": "38e33638-4989-4035-ac88-4b1bac20855e",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "views\/b9285c55-c7d6-424e-bd2b-8df321969a5d.yy",
                 "resourceType": "GMFolder"
             }
