@@ -1,6 +1,6 @@
 /// @description Setup macros
 
-show_debug_overlay(true);
+show_debug_overlay(false);
 
 scrDefineMacros();
 scrInitializeGlobals();

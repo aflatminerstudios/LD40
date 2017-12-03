@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "1a9c85cf-f3bf-4bc5-9619-5a125feec431",
+            "Value": {
+                "id": "d3611ebb-140a-43ee-ba15-84252a926b87",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrEatFood\/scrEatFood.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1b933c24-92b7-49ca-bae8-c465dd4e2758",
             "Value": {
                 "id": "93cc001e-852a-4528-bff9-8dd143270b6f",
@@ -225,6 +244,25 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/scrEsoFoodQueueLength\/scrEsoFoodQueueLength.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "304bda51-0024-46dc-9b8f-11a060bfac3f",
+            "Value": {
+                "id": "bb2bffa7-c575-4166-9ac0-a8e9c4162acd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrHoldFood\/scrHoldFood.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -568,6 +606,25 @@
                 ],
                 "resourcePath": "objects\/objCompetitionControl\/objCompetitionControl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "612edf30-3a0a-42b7-8296-ae16e47e14f5",
+            "Value": {
+                "id": "0839825a-3528-486f-b017-f3cdf7ccb63d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprCompetitor\/sprCompetitor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1511,6 +1568,8 @@
         "ae97bd5e-c107-49a3-8c52-7b1cd3364d1b",
         "7ad08e2c-644c-4f33-a548-6d2164a14678",
         "41a1f79f-13ab-4e22-aeec-1681efaee35b",
+        "304bda51-0024-46dc-9b8f-11a060bfac3f",
+        "1a9c85cf-f3bf-4bc5-9619-5a125feec431",
         "d892187a-cd74-4b69-b7d1-db73571992b2",
         "8b9ac15b-48ff-4be0-b817-62bff086dd73",
         "2c25403a-2789-41c2-9743-8d7b1ac49177",
