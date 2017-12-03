@@ -7,4 +7,4 @@ sprites[2] = sprSBratQuarter;
 
 splitDist = 25;
 
-acidIncreaseRate = 0.03;
+acidIncreaseRate = 0.02;
