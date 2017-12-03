@@ -13,6 +13,8 @@
     sprite_delete(sprite_index); 
   }
 
+
+  
   sprite_index = sprite_create_from_surface(surf, 0, 0, sprite_get_width(sprAcid), sprite_get_height(sprAcid), false, false, sprite_get_xoffset(sprAcid), sprite_get_yoffset(sprAcid));
   //sprite_index = sprite_duplicate(sprAcid);
   currentIndex = oldIndex;
@@ -25,7 +27,7 @@
   surface_free(surf);
   sprite_set_alpha_from_sprite(sprite_index, spr);
   sprite_delete(spr);
-  
+
 //}
   
 
