@@ -6,9 +6,8 @@ sprCreate = true;
 stomach = noone;
 
 currentAcidLevel = objEsophagusControl.acidLevel;
-acidTargetLevel = objEsophagusControl.acidLevel;
 acidGrowSpeed = 0.01;
-oldAcidLevel = objEsophagusControl.acidLevel;
+oldAcidLevel = currentAcidLevel;
 
 currentIndex = 0;
 
