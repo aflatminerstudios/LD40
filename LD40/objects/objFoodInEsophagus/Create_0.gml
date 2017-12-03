@@ -3,3 +3,4 @@
 
 path_start(pathThroughEsophagus, 10, path_action_stop, true);
 hasTransfered = false;
+type = noone;
