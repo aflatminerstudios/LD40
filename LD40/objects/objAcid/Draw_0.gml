@@ -1,8 +1,6 @@
 /// @description Draw sprite with alpha
 // You can write your code in this editor
 
-//y = stomach.y + (1 - currentAcidLevel) * sprite_get_height(stomach.sprite_index);
-
 if (sprCreate) {
   sprCreate = false;
   var surf, spr;
