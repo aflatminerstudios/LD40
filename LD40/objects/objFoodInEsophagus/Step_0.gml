@@ -6,3 +6,4 @@ if (path_position == 1 && !hasTransfered) {
   scrEsoPopFoodToNextQueue();
   hasTransfered = true;
 }
+image_angle = direction;
