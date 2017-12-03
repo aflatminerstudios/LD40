@@ -11,7 +11,7 @@ var barTopY = 30;
 var energy = objCompetitionControl.energy;
 var energyMax = objCompetitionControl.energyMax;
 var energyPercent = energy/energyMax;
-var acidPercent = objEsophagusControl.acidLevel;
+var acidPercent = objEsophagusControl.acidLevel - objEsophagusControl.acidMin;
 
 var barRightX = barLeftX + barWidth
 var barBottomY = barTopY + barHeight;
@@ -46,3 +46,8 @@ draw_set_alpha(1.0);
 
 // Draw outline
 draw_roundrect_colour_ext(barLeftX, barTopY, barRightX, barBottomY, 5, 5, c_white, c_white, true);
+
+
+// Debug draw -- remove -- Micha TODO
+//var clippedSprite = scrCompCreateMaskedSprite(mouse_x, mouse_y, sprSBrat, 0, sprSBrat);
+//draw_sprite(clippedSprite, 0, mouse_x, mouse_y);
