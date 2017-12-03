@@ -2,16 +2,16 @@
 /// @desc Creates food based ont he esophogus food queue
 
 var type = scrEsoPopFoodFromQueue();
-var foodSprite = objSBrat;
+var foodSprite = sprSBrat;
 switch (type) {
 case FOOD_BRATWURST:
-  foodSprite = objSBrat;
+  foodSprite = sprSBrat;
   break;
 case FOOD_CELERY:
-  foodSprite = objSCelery;
+  foodSprite = sprSCelery;
   break;
 default:
-  foodSprite = objSBrat; 
+  foodSprite = sprSBrat; 
 }
 
 
