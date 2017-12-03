@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "185064b7-f0d7-4360-8abd-a547a307ba60",
-            "Value": {
-                "id": "9fe1ce35-a89f-48ed-ad87-1b649f588e70",
-                "resourcePath": "scripts\\scrStomachCreateCelery\\scrStomachCreateCelery.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "1b933c24-92b7-49ca-bae8-c465dd4e2758",
             "Value": {
                 "id": "93cc001e-852a-4528-bff9-8dd143270b6f",
@@ -132,14 +124,6 @@
                 "id": "b8cdff7f-0de3-43d0-be12-b136405048f3",
                 "resourcePath": "sprites\\sprSBratHalf\\sprSBratHalf.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3c675645-417e-47e7-b355-7085da5223bd",
-            "Value": {
-                "id": "dc8371cd-0392-49f7-a695-a67f1ee3348f",
-                "resourcePath": "scripts\\scrStomachCreateBratwurst\\scrStomachCreateBratwurst.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -359,6 +343,14 @@
             }
         },
         {
+            "Key": "95ba75fc-d4ef-4600-8f91-1f744f20c6f6",
+            "Value": {
+                "id": "8eddc7e3-890c-432d-97a0-d32a67ac38d7",
+                "resourcePath": "sprites\\sprStomachCollider\\sprStomachCollider.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9c266269-2254-4bf1-99ca-e48243eb8604",
             "Value": {
                 "id": "f3baada7-35b5-4428-b1bf-8cbe186bcab8",
@@ -548,8 +540,6 @@
         "ee2e58f9-aa5e-4481-9cd3-6e9cea030979",
         "21d4f660-2a13-4031-84d6-a406289449b8",
         "71517c31-359b-4f5b-9441-137f63ad0265",
-        "3c675645-417e-47e7-b355-7085da5223bd",
-        "185064b7-f0d7-4360-8abd-a547a307ba60",
         "ee9b8abe-993e-4ad0-bba5-a887797f8c86",
         "ae97bd5e-c107-49a3-8c52-7b1cd3364d1b",
         "d892187a-cd74-4b69-b7d1-db73571992b2",
