@@ -43,4 +43,5 @@ with (foodToSplit) {
   f2.sprite_index = f2.sprites[f2.numSplits];
   f2.image_xscale = -1;
   
+  instance_destroy();
 }
