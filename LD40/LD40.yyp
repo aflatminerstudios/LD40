@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "383d97fb-261e-4c52-bc1d-0460de8917b1",
+            "Value": {
+                "id": "8f4e15e0-1e6e-4bf7-8fef-67f08c278adb",
+                "resourcePath": "fonts\\fontStandard\\fontStandard.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "3c675645-417e-47e7-b355-7085da5223bd",
             "Value": {
                 "id": "dc8371cd-0392-49f7-a695-a67f1ee3348f",
@@ -284,6 +292,22 @@
                 "id": "0839825a-3528-486f-b017-f3cdf7ccb63d",
                 "resourcePath": "sprites\/sprCompetitor\/sprCompetitor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "66b6a550-5208-4a32-88c8-98c1b9f78a97",
+            "Value": {
+                "id": "d6ee7383-17c5-4665-b32c-e825f49c9b60",
+                "resourcePath": "views\\66b6a550-5208-4a32-88c8-98c1b9f78a97.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "69cf0926-b563-4739-9dcf-768a27a5cb2d",
+            "Value": {
+                "id": "77749840-c58c-4584-8d7c-6ada060136d7",
+                "resourcePath": "objects\\objGameOverControl\\objGameOverControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -639,6 +663,14 @@
             }
         },
         {
+            "Key": "ef31f1ac-3f0b-4577-8749-877481b4fe5e",
+            "Value": {
+                "id": "3516aa8f-799f-47c3-862b-f072dbd0663a",
+                "resourcePath": "fonts\\fontGameOver\\fontGameOver.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "a13263e1-fc49-44ec-bbe6-4c2ffbfb645d",
@@ -668,6 +700,14 @@
                 "id": "182bf4a7-ef94-4dde-b873-fdeb682b2c90",
                 "resourcePath": "objects\\objTitleControl\\objTitleControl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd07fb16-5f0d-4950-b77e-8db0997a3823",
+            "Value": {
+                "id": "b8cd77e1-55c0-491f-84a3-fd4d6e98a7f6",
+                "resourcePath": "rooms\\roomGameOver\\roomGameOver.yy",
+                "resourceType": "GMRoom"
             }
         }
     ],
