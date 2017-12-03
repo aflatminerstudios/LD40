@@ -3,13 +3,13 @@
 
 currentAcidLevel = objEsophagusControl.acidLevel;
 
-if ((oldAcidLevel != currentAcidLevel && stomach != noone) || sprCreate) {
+if ((oldAcidLevel != currentAcidLevel && stomach != noone)) {
  /* if (sprite_index != sprAcid) {
     sprite_delete(sprite_index);
     sprCreate = true;
   }*/
+  oldAcidLevel += acidGrowSpeed;
   
-  y = stomach.y + (1 - currentAcidLevel) * sprite_get_height(stomach.sprite_index);
+  y = stomach.y + (1 - oldAcidLevel) * sprite_get_height(stomach.sprite_index);
 
-  oldAcidLevel = currentAcidLevel;
 }

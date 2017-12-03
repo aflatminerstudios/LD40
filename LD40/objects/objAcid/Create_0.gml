@@ -1,14 +1,14 @@
 /// @description Setup variables
 // You can write your code in this editor
 
-//sprite_set_alpha_from_sprite()
-
 sprCreate = true;
 
 stomach = noone;
 
 currentAcidLevel = objEsophagusControl.acidLevel;
-oldAcidLevel = -100;
+acidTargetLevel = objEsophagusControl.acidLevel;
+acidGrowSpeed = 0.01;
+oldAcidLevel = objEsophagusControl.acidLevel;
 
 currentIndex = 0;
 

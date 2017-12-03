@@ -7,7 +7,10 @@ containerWidth = 350;
 containerHeight = 500;
 
 stomach = instance_create_layer(x, y, "BGObjects", objStomach);
+
 acid = instance_create_layer(x, y, "Instances", objAcid);
+acid.y = stomach.y + (1 - objEsophagusControl.acidLevel) * sprite_get_height(stomach.sprite_index);
+
 acid.stomach = stomach;
 
 esophagus = instance_find(objEsophagusControl, 0);
