@@ -19,7 +19,7 @@
   //sprite_index = sprite_duplicate(sprAcid);
   currentIndex = oldIndex;
   draw_clear_alpha(c_black, 0);
-  draw_sprite(sprStomachMask, 0, sprite_get_xoffset(sprAcid), sprite_get_yoffset(sprAcid) - (1 - currentAcidLevel) * sprite_get_height(stomach.sprite_index));
+  draw_sprite(sprStomachMask, 0, sprite_get_xoffset(sprAcid), sprite_get_yoffset(sprAcid) - (1 - oldAcidLevel) * sprite_get_height(stomach.sprite_index));
     
   spr = sprite_create_from_surface(surf, 0, 0, sprite_width, sprite_height, false, false, sprite_get_xoffset(sprAcid), sprite_get_yoffset(sprAcid));
 
