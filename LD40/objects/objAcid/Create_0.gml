@@ -9,3 +9,9 @@ stomach = noone;
 
 currentAcidLevel = objEsophagusControl.acidLevel;
 oldAcidLevel = -100;
+
+currentIndex = 0;
+
+frameSpeed = room_speed / sprite_get_speed(sprAcid) ;
+
+alarm[0] = frameSpeed;

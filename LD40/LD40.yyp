@@ -215,14 +215,6 @@
             }
         },
         {
-            "Key": "71a469c9-605d-4234-959c-2f61b6621df1",
-            "Value": {
-                "id": "ef13dfcb-ffad-4fc9-8580-366441a2dca3",
-                "resourcePath": "sprites\\sprAcid1\\sprAcid1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "729154f8-4b2d-4dc9-b7a9-15eaa16523ac",
             "Value": {
                 "id": "d64f916d-df99-4ac1-82fa-6c15e1f84dee",
