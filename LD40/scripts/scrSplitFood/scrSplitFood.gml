@@ -18,8 +18,8 @@ with (foodToSplit) {
     }
   }
   //This changes the direction based on splitting
-  f1.xSpeed = sign(f1.x - x) * speedMult;
-  f1.ySpeed = sign(f1.y - y) * speedMult;
+  f1.xSpeed = sign(f1.x - x) * splitMult;
+  f1.ySpeed = sign(f1.y - y) * splitMult;
   f1.sprite_index = f1.sprites[f1.numSplits];
 
 
@@ -38,8 +38,8 @@ with (foodToSplit) {
     }
   }
   //This changes the direction based on splitting
-  f2.xSpeed = sign(f2.x - x) * speedMult;
-  f2.ySpeed = sign(f2.y - y) * speedMult;
+  f2.xSpeed = sign(f2.x - x) * splitMult;
+  f2.ySpeed = sign(f2.y - y) * splitMult;
   f2.sprite_index = f2.sprites[f2.numSplits];
   f2.image_xscale = -1;
   
