@@ -9,5 +9,6 @@ foodItems = 0; // Remove when queue system is finalized  --  Micha TODO
 foodQueue = ds_queue_create();
 readyQueue = ds_queue_create();
 
-acidLevel = 0.15;
-
+acidMin = 0.15; // Baseline amount of acid at start
+acidLevel = acidMin; // Actual amount used in energy meter is (level - min)
+acidIncreaseRate = 0.01;
