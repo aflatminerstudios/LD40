@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "46471783-fce2-49c1-a945-ad0aa73d8bb5",
+            "Value": {
+                "id": "4db6629b-f51b-4c68-8120-41f42d07a172",
+                "resourcePath": "scripts\\scrGameOver\\scrGameOver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "46d3091f-2f0b-40f9-813b-b45500c0a2f5",
             "Value": {
                 "id": "09b60a3b-7c16-4e0e-a542-133ea9874e7e",
@@ -735,7 +743,8 @@
         "2c25403a-2789-41c2-9743-8d7b1ac49177",
         "4b5ee985-0c9b-4fd8-9d94-032bc3ab292b",
         "875c95bc-65f5-4d84-b501-473178cf09e0",
-        "9bb48c06-8e65-4159-b08f-35dfd303a233"
+        "9bb48c06-8e65-4159-b08f-35dfd303a233",
+        "46471783-fce2-49c1-a945-ad0aa73d8bb5"
     ],
     "tutorial": ""
 }
