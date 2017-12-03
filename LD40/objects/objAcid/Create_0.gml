@@ -14,3 +14,5 @@ currentIndex = 0;
 frameSpeed = room_speed / sprite_get_speed(sprAcid) ;
 
 alarm[0] = frameSpeed;
+
+surf = surface_create(sprite_get_width(sprStomachMask), sprite_get_height(sprStomachMask));
