@@ -34,4 +34,8 @@ with (objStats) {
   }
 }
 
+with (objCompetitor) {
+  alarm[0] = -1;
+  alarm[1] = -1;
+}
 
