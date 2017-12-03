@@ -3,7 +3,7 @@
 image_speed = 1;
 
 energyValue = 0;
-foodType = choose(FOOD_BRATWURST, FOOD_CELERY);
+foodType = choose(FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_CELERY);
 
 
 switch(foodType) {
