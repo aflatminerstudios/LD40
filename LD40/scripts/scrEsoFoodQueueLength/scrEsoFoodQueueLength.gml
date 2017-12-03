@@ -1,3 +1,3 @@
 /// scrEsoFoodQueueLength()
 
-return ds_queue_size(objEsophagusControl.foodQueue);
+return ds_queue_size(objEsophagusControl.readyQueue);

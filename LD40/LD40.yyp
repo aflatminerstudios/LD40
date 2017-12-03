@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "30d12c12-5fe5-4920-8a9e-c904b3af9547",
+            "Value": {
+                "id": "84ac162e-32d9-4865-b04c-3aceb6bc1160",
+                "resourcePath": "sprites\\sprEsophagusFood\\sprEsophagusFood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34bd6695-6695-45c6-ab3d-015a36e31b7f",
             "Value": {
                 "id": "4e51594b-b827-4bcf-96b3-37d30d761d60",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "463acd0a-dab9-41e0-896a-03855f9450b3",
+            "Value": {
+                "id": "64437953-501b-4804-a0dd-52ee8b4d4457",
+                "resourcePath": "paths\\pathThroughEsophagus\\pathThroughEsophagus.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "46d3091f-2f0b-40f9-813b-b45500c0a2f5",
             "Value": {
                 "id": "09b60a3b-7c16-4e0e-a542-133ea9874e7e",
@@ -163,6 +179,14 @@
             "Value": {
                 "id": "d5a2c240-dfa5-406f-b00c-01b0ef981d8b",
                 "resourcePath": "scripts\\scrDestroyFood\\scrDestroyFood.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4b5ee985-0c9b-4fd8-9d94-032bc3ab292b",
+            "Value": {
+                "id": "2995f66f-f88b-492e-acf1-886d556415cf",
+                "resourcePath": "scripts\\scrEsoPopFoodToNextQueue\\scrEsoPopFoodToNextQueue.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -247,10 +271,26 @@
             }
         },
         {
+            "Key": "71a469c9-605d-4234-959c-2f61b6621df1",
+            "Value": {
+                "id": "ef13dfcb-ffad-4fc9-8580-366441a2dca3",
+                "resourcePath": "sprites\\sprAcid1\\sprAcid1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "729154f8-4b2d-4dc9-b7a9-15eaa16523ac",
             "Value": {
                 "id": "d64f916d-df99-4ac1-82fa-6c15e1f84dee",
                 "resourcePath": "objects\/objEsophagusControl\/objEsophagusControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "741e3bff-c927-4b59-abe9-4c26e3822064",
+            "Value": {
+                "id": "854021aa-dd29-418f-9f63-4fc890b8bcc7",
+                "resourcePath": "objects\\objFoodInEsophagus\\objFoodInEsophagus.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -515,6 +555,7 @@
         "d892187a-cd74-4b69-b7d1-db73571992b2",
         "8b9ac15b-48ff-4be0-b817-62bff086dd73",
         "2c25403a-2789-41c2-9743-8d7b1ac49177",
+        "4b5ee985-0c9b-4fd8-9d94-032bc3ab292b",
         "875c95bc-65f5-4d84-b501-473178cf09e0"
     ],
     "tutorial": ""
