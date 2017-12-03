@@ -3,8 +3,8 @@
 
 //if (sprCreate) {
   sprCreate = false;
-  var surf, spr;
-  surf = surface_create(sprite_get_width(sprStomachMask), sprite_get_height(sprStomachMask));
+  var spr;
+  
   surface_set_target(surf);
   draw_clear_alpha(c_black, 0);
   draw_sprite(sprAcid, currentIndex, sprite_get_xoffset(sprAcid), sprite_get_yoffset(sprAcid));
@@ -24,7 +24,7 @@
   spr = sprite_create_from_surface(surf, 0, 0, sprite_width, sprite_height, false, false, sprite_get_xoffset(sprAcid), sprite_get_yoffset(sprAcid));
 
   surface_reset_target();
-  surface_free(surf);
+
   sprite_set_alpha_from_sprite(sprite_index, spr);
   sprite_delete(spr);
 
