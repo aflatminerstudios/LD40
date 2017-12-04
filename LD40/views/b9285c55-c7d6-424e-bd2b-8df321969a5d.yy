@@ -11,7 +11,8 @@
         "eb260446-7564-418c-a492-b261afe09fc0",
         "4f0be3de-d6fd-4c73-aec8-70d12edcaee8",
         "f5be0d1b-99d2-4da1-884b-7200837b4a3e",
-        "cea476d3-d49e-45ed-b1b3-d0d4614a8080"
+        "cea476d3-d49e-45ed-b1b3-d0d4614a8080",
+        "0558b2ad-ab7c-4c37-be10-3566a040b3dd"
     ],
     "filterType": "GMObject",
     "folderName": "Competition Objects",
