@@ -45,3 +45,5 @@ with (foodToSplit) {
   
   instance_destroy();
 }
+
+audio_play_sound(sndSplit1, 0, false);

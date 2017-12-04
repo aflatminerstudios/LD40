@@ -11,3 +11,4 @@ var bullet = instance_create_layer(newx, newy, "Instances", objBullet);
 bullet.targetX = mouse_x;
 bullet.targetY = mouse_y;
 
+audio_play_sound(choose(sndLowPew1, sndLowPew2, sndLowPew3), 0, false);
