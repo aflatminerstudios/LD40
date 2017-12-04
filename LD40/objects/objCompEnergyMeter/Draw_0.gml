@@ -1,6 +1,6 @@
 /// @description Draw meter based on energy level
 
-// Tweakable values
+// Tweakable values (Adjust the sprite scale and position)
 var barWidth = image_xscale * sprite_get_width(self.sprite_index);
 var barHeight = image_yscale * sprite_get_height(self.sprite_index);
 var barLeftX = x;
@@ -43,10 +43,9 @@ draw_set_alpha(acidAlpha);
 draw_roundrect_colour_ext(barLeftX, acidTopY, barRightX, barBottomY, 5, 5, acidColor, acidColor, false);
 draw_set_alpha(1.0);
 
+var originalSpriteOffsetX = 69;
+var originalSpriteOffsetY = 28; // Includes the top, but draws it as the offset being the acid line
+draw_sprite_part(sprAcid, objAcid.currentIndex, originalSpriteOffsetX-barWidth/2, 0, barWidth, acidPercent*barHeight+originalSpriteOffsetY, barLeftX, acidTopY-originalSpriteOffsetY);
+
 // Draw outline
 draw_roundrect_colour_ext(barLeftX, barTopY, barRightX, barBottomY, 5, 5, c_black, c_black, true);
-
-
-// Debug draw -- remove -- Micha TODO
-//var clippedSprite = scrCompCreateMaskedSprite(mouse_x, mouse_y, sprSBrat, 0, sprSBrat);
-//draw_sprite(clippedSprite, 0, mouse_x, mouse_y);
