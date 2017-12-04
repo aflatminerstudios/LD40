@@ -18,13 +18,22 @@
   //sprite_index = sprite_duplicate(sprSploosh);
   currentIndex = oldIndex;
   draw_clear_alpha(c_black, 0);
-  draw_sprite(sprStomachMask, 0, sprite_get_xoffset(objStomach) + (x - objStomach.x), sprite_get_yoffset(objStomach) - (1 - objAcid.oldAcidLevel) * sprite_get_height(objStomach.sprite_index));
-    
-  spr = sprite_create_from_surface(surf, 0, 0, sprite_width, sprite_height, false, false, sprite_get_xoffset(sprSploosh), sprite_get_yoffset(sprSploosh));
-draw_clear_alpha(c_black, 0);
-
-//draw_sprite(sprStomachMask, 0, sprite_get_xoffset(sprSploosh), sprite_get_yoffset(sprSploosh) - (1 - objAcid.oldAcidLevel) * sprite_get_height(objStomach.sprite_index));
-//draw_sprite(sprSploosh, currentIndex, sprite_get_xoffset(sprSploosh) + (x - objStomach.x), sprite_get_yoffset(sprSploosh));
+  draw_sprite(sprSplooshMask, 0, 0, 0);
+  
+  var wVal = sprite_width;
+  var hVal = sprite_height;
+  if ((x - sprite_get_xoffset(sprSploosh) + wVal) >= 800) {
+    wVal = 800 - (x - sprite_get_xoffset(sprSploosh)); 
+  }
+  if ((y - sprite_get_yoffset(sprSploosh) + hVal) >= 600) {
+    wVal = 600 - (y - sprite_get_yoffset(sprSploosh)); 
+  }
+spr = sprite_create_from_surface(surf, 0, 0, sprite_width, sprite_height, false, false, sprite_get_xoffset(sprSploosh), sprite_get_yoffset(sprSploosh));  
+  //spr = sprite_create_from_surface(surf, x - sprite_get_xoffset(sprSploosh), y - sprite_get_yoffset(sprSploosh), wVal, hVal, false, false, sprite_get_xoffset(sprSploosh), sprite_get_yoffset(sprSploosh));
+//draw_clear_alpha(c_black, 0);
+//show_debug_message(sprite_get_width(spr));
+//draw_sprite(sprSplooshMask, 0, sprite_get_xoffset(sprSploosh), sprite_get_yoffset(sprSploosh));
+//draw_sprite(sprSploosh, currentIndex, sprite_get_xoffset(sprSploosh), sprite_get_yoffset(sprSploosh));
   surface_reset_target();
 
 //draw_surface(surf, 100, 100);

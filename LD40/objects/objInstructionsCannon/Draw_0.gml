@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-sprite_delete(sprite_index);
+draw_self();
+draw_sprite(sprShooterWheel, 0, x, y);
