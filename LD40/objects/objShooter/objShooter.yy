@@ -5,16 +5,6 @@
     "name": "objShooter",
     "eventList": [
         {
-            "id": "32332fc1-4799-4930-837b-2052c5bdd546",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 53,
-            "eventtype": 6,
-            "m_owner": "66a7736d-9b88-4d1f-97f4-08295e0708d7"
-        },
-        {
             "id": "93efabb0-4b18-4176-ac83-d5ec49e29709",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "66a7736d-9b88-4d1f-97f4-08295e0708d7"
+        },
+        {
+            "id": "ebf5075b-dec7-4b50-b1bd-a0aa65e8f13c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
             "m_owner": "66a7736d-9b88-4d1f-97f4-08295e0708d7"
         }
     ],
