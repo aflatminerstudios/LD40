@@ -42,17 +42,6 @@
             "Key": "0558b2ad-ab7c-4c37-be10-3566a040b3dd",
             "Value": {
                 "id": "7728b519-9f10-4626-acad-75e0822c6c9a",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "objects\/objCompetitionClickArea\/objCompetitionClickArea.yy",
                 "resourceType": "GMObject"
             }
@@ -151,6 +140,14 @@
                 "id": "2d2f40c3-5868-41f6-80d6-d2f5405170ce",
                 "resourcePath": "scripts\/scrEsoFoodQueueLength\/scrEsoFoodQueueLength.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2cf4a2a7-d8fd-4ee4-a1cd-2be4c3530ca3",
+            "Value": {
+                "id": "b9aa1094-af61-4687-8c64-53666d31cfb0",
+                "resourcePath": "sprites\\sprFrontStomach\\sprFrontStomach.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -477,7 +474,7 @@
             "Key": "7d11afa2-69c3-49dd-94af-9c987ee4a0ea",
             "Value": {
                 "id": "ebc97619-d145-497a-8295-a5f77dff8141",
-                "resourcePath": "sprites\\sprSplosh\\sprSplosh.yy",
+                "resourcePath": "sprites\\sprSploosh\\sprSploosh.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -887,6 +884,14 @@
                 "id": "3516aa8f-799f-47c3-862b-f072dbd0663a",
                 "resourcePath": "fonts\/fontGameOver\/fontGameOver.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "f0d51111-b6df-424e-8faf-4af159798449",
+            "Value": {
+                "id": "7b685a4f-1aed-48b0-b144-47c720691051",
+                "resourcePath": "objects\\objFrontStomach\\objFrontStomach.yy",
+                "resourceType": "GMObject"
             }
         },
         {

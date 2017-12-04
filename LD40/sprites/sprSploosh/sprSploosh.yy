@@ -2,7 +2,7 @@
     "id": "7d11afa2-69c3-49dd-94af-9c987ee4a0ea",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprSplosh",
+    "name": "sprSploosh",
     "For3D": false,
     "HTile": false,
     "VTile": false,
