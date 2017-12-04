@@ -7,7 +7,8 @@
         "cb9cf93d-0737-4148-a7fe-01c8cb3191ab",
         "b3da43d9-2f16-47f1-9381-d6c709466751",
         "612edf30-3a0a-42b7-8296-ae16e47e14f5",
-        "88a259f1-ec64-4ce3-bf27-6606ff97c639"
+        "88a259f1-ec64-4ce3-bf27-6606ff97c639",
+        "bef1c991-34ac-49ae-9190-7561f0875217"
     ],
     "filterType": "GMSprite",
     "folderName": "Competition Sprites",

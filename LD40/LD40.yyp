@@ -1578,6 +1578,25 @@
             }
         },
         {
+            "Key": "bef1c991-34ac-49ae-9190-7561f0875217",
+            "Value": {
+                "id": "cbdc76ff-a8f1-4c9e-8dc4-110f140b9ad7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprCompEatNotice\/sprCompEatNotice.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c1555469-8f8f-470a-8e6a-0806306a8bc0",
             "Value": {
                 "id": "48c2e9eb-055c-4a21-87bd-4d872f9cc385",
