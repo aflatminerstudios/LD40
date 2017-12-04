@@ -5,7 +5,7 @@ instance_create_layer(x, y, "Instances", objShooterWheel);
 
 inDelay = false;
 
-delayTime = room_speed * 0.3;
+delayTime = room_speed * 0.2;
 
 hasShot = false;
 
