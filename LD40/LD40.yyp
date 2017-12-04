@@ -476,6 +476,25 @@
             }
         },
         {
+            "Key": "41ecb03d-c5c9-451a-9b8d-a6b3f87393f3",
+            "Value": {
+                "id": "7f3d2b7d-03b7-477c-994b-91a5f5d4e0df",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprCompetitionCrowd\/sprCompetitionCrowd.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "459701f3-e32a-454c-93b4-e85a8c382df7",
             "Value": {
                 "id": "aebc419a-d6ae-4c61-a575-01018092856b",
@@ -1803,6 +1822,25 @@
                 ],
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cea476d3-d49e-45ed-b1b3-d0d4614a8080",
+            "Value": {
+                "id": "9d53c6e9-748f-492e-9250-3d1e6da741df",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objCompetitionCrowd\/objCompetitionCrowd.yy",
+                "resourceType": "GMObject"
             }
         },
         {
