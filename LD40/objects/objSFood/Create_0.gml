@@ -19,3 +19,6 @@ sprites[1] = noone;
 sprites[2] = noone;
 
 acidIncreaseRate = 0.01;
+
+movingUp = false;
+moveUpCount = 0;

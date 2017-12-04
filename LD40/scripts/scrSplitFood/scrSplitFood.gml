@@ -2,7 +2,11 @@
 
 var foodToSplit = argument0;
 
+
 with (foodToSplit) {
+  
+  //effect_create_above(ef_flare, x, y + sprite_height / 2, 0, c_white);
+  
   numSplits++;  
   var f1 = instance_create_layer(x, y + ySpeed, "Instances", foodToSplit.object_index);
   f1.numSplits = numSplits;  

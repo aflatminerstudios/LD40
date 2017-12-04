@@ -15,9 +15,9 @@ acid.stomach = stomach;
 
 esophagus = instance_find(objEsophagusControl, 0);
 
-baseSpawnTime = room_speed * 0.65;
+baseSpawnTime = room_speed * 0.5;
 spawnTime = baseSpawnTime;
-minSpawnTime = room_speed * 0.4;
+minSpawnTime = room_speed * 0.2;
 spawnRateChange = 1;
 
 
@@ -27,9 +27,9 @@ minSpeedMult = 0.5;
 maxSpeedMult = 5.0;
 speedRateChange = 1.10;
 
-difficultyTime = room_speed * 7; 
+difficultyTime = room_speed * 5; 
 alarm[1] = difficultyTime;
 
-
+scrCreateParticleSystem(self.id);
 
 alarm[0] = 1;

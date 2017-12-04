@@ -5,7 +5,8 @@ var target = other.id;
 
 
 if (target.numSplits < target.maxSplits) {
-  scrSplitFood(target);
+  //scrSplitFood(target);
+  scrBounceFood(target);
   instance_destroy();
 } else {
   scrDestroyFood(target);

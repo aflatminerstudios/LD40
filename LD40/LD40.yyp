@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "4537284d-8df5-4268-bc7c-997a9ca382e6",
+            "Value": {
+                "id": "aba9da0b-cd53-4b73-9817-0adc1f1ebf1a",
+                "resourcePath": "scripts\\scrCreateParticleSystem\\scrCreateParticleSystem.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "459701f3-e32a-454c-93b4-e85a8c382df7",
             "Value": {
                 "id": "aebc419a-d6ae-4c61-a575-01018092856b",
@@ -479,6 +487,14 @@
             }
         },
         {
+            "Key": "58766c64-d531-498f-ad58-1918b6dc0524",
+            "Value": {
+                "id": "28b3e6e9-53af-46b9-a1d2-d9c1d534c391",
+                "resourcePath": "scripts\\scrDestroyParticleSystem\\scrDestroyParticleSystem.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5d27d6fd-3790-4666-a67d-0be3ae5dc474",
             "Value": {
                 "id": "1b1a1791-0007-422a-8eb9-bcc5a81f52d0",
@@ -492,6 +508,14 @@
                 "id": "a38cc3c1-1058-446c-9f12-d5dbb558cc40",
                 "resourcePath": "objects\/objCompetitionControl\/objCompetitionControl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6061ea37-3635-48f1-993f-3fce33c47d09",
+            "Value": {
+                "id": "4de04e21-8afc-454e-a477-b99be0e4221b",
+                "resourcePath": "scripts\\scrBounceFood\\scrBounceFood.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1316,6 +1340,9 @@
         "ee2e58f9-aa5e-4481-9cd3-6e9cea030979",
         "21d4f660-2a13-4031-84d6-a406289449b8",
         "71517c31-359b-4f5b-9441-137f63ad0265",
+        "6061ea37-3635-48f1-993f-3fce33c47d09",
+        "4537284d-8df5-4268-bc7c-997a9ca382e6",
+        "58766c64-d531-498f-ad58-1918b6dc0524",
         "ee9b8abe-993e-4ad0-bba5-a887797f8c86",
         "ae97bd5e-c107-49a3-8c52-7b1cd3364d1b",
         "7ad08e2c-644c-4f33-a548-6d2164a14678",
