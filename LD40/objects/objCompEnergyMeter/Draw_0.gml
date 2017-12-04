@@ -1,11 +1,10 @@
 /// @description Draw meter based on energy level
 
 // Tweakable values
-var barHeight = room_height*0.75;
+var barHeight = 400;
 var barWidth = 20;
-var barBorderWidth = 1.0;
-var barLeftX = 30;
-var barTopY = 30;
+var barLeftX = x;
+var barTopY = y;
 
 // Derived values
 var energy = objCompetitionControl.energy;
@@ -45,7 +44,7 @@ draw_roundrect_colour_ext(barLeftX, acidTopY, barRightX, barBottomY, 5, 5, acidC
 draw_set_alpha(1.0);
 
 // Draw outline
-draw_roundrect_colour_ext(barLeftX, barTopY, barRightX, barBottomY, 5, 5, c_white, c_white, true);
+draw_roundrect_colour_ext(barLeftX, barTopY, barRightX, barBottomY, 5, 5, c_black, c_black, true);
 
 
 // Debug draw -- remove -- Micha TODO
