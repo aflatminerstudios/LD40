@@ -10,6 +10,8 @@ if (timeComplete && !movingView) {
       time = 0;
       movingView = true;
     } else if (keyboard_check_pressed(vk_anykey) || mouse_check_button_pressed(mb_any)) {         
+      var whichSound = choose(sndBurp1, sndBurp2, sndBurp3);
+      audio_play_sound(whichSound, 100, false);
       room_goto(roomInstructions); 
     }  
   } else {
