@@ -13,7 +13,7 @@ with(objEsophagusControl) {
 
 //Currently a brat hitting acid just reduces competition energy
 with (whichFood) {
-  instance_create_depth(x, y, "Instances", objSploosh);
+  instance_create_layer(x, y, "Instances", objSploosh);
   
   instance_destroy();
 }

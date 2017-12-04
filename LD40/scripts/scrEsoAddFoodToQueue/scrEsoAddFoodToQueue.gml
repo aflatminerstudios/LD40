@@ -6,7 +6,7 @@ ds_queue_enqueue(objEsophagusControl.foodQueue, foodType);
 
 var xPos = 140;
 var yPos = 462;
-var f = instance_create_layer(xPos, yPos, "Instances", objFoodInEsophagus);
+var f = instance_create_layer(xPos, yPos, "FG_Shadows", objFoodInEsophagus);
 f.type = foodType;
 
 switch(foodType) {

@@ -362,6 +362,14 @@
             }
         },
         {
+            "Key": "2cf4a2a7-d8fd-4ee4-a1cd-2be4c3530ca3",
+            "Value": {
+                "id": "b9aa1094-af61-4687-8c64-53666d31cfb0",
+                "resourcePath": "sprites\\sprFrontStomach\\sprFrontStomach.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f17d309-1ce8-4139-910f-6ec7ce9a9087",
             "Value": {
                 "id": "0c8c3ab8-d9b4-4b92-be6c-f07b065c54df",
@@ -720,6 +728,14 @@
                 ],
                 "resourcePath": "views\/47b31bd3-5a3a-4c8a-8f12-4df40dbc058d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "47c91738-25d1-4c55-9022-3662787b5834",
+            "Value": {
+                "id": "8a5ee0ae-fb1f-4c0a-a52e-9fbacce69d90",
+                "resourcePath": "sprites\\sprAnyKey\\sprAnyKey.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1288,7 +1304,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/sprSplosh\/sprSplosh.yy",
+                "resourcePath": "sprites\/sprSploosh\/sprSploosh.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2091,6 +2107,14 @@
             }
         },
         {
+            "Key": "c3beeb0e-3c8f-4b50-afc6-4ed4f981810a",
+            "Value": {
+                "id": "901b2b25-97db-4ca8-af68-7d6eefe1965c",
+                "resourcePath": "objects\\objAnyKey\\objAnyKey.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c5637b99-6ff8-4915-81ec-0acc79541066",
             "Value": {
                 "id": "18ddb532-18f5-4f41-8b66-8f7f0e4a0f96",
@@ -2430,6 +2454,14 @@
                 ],
                 "resourcePath": "fonts\/fontGameOver\/fontGameOver.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "f0d51111-b6df-424e-8faf-4af159798449",
+            "Value": {
+                "id": "7b685a4f-1aed-48b0-b144-47c720691051",
+                "resourcePath": "objects\\objFrontStomach\\objFrontStomach.yy",
+                "resourceType": "GMObject"
             }
         },
         {
