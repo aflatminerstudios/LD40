@@ -17,3 +17,5 @@ with (whichFood) {
   
   instance_destroy();
 }
+
+audio_play_sound(choose(sndAcidSplash1, sndAcidSplash2, sndAcidSplash3), 0, false);

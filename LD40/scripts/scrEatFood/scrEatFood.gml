@@ -9,5 +9,10 @@ competitor.alarm[1] = (competitor.image_number - competitor.eatingImageIndex)/co
 
 competitor.state = COMPETITOR_EATING;
 
+if(objCompFood.foodType == FOOD_CELERY)
+	audio_play_sound(sndCrunch1, 0, false);
+else	
+	audio_play_sound(choose(sndChomp1, sndChomp2, sndChomp3, sndChomp4), 0, false);
+	
 
 objCompFood.image_alpha = 0;

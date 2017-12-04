@@ -3,9 +3,13 @@
 image_speed = 1;
 
 energyValue = 0;
-foodType = choose(FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_CELERY);
 
-
+// Get bratwursts for the first 5 food items, random after that
+if(objEsophagusControl.foodItems > 5)
+	foodType = choose(FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_BRATWURST, FOOD_CELERY);
+else 
+	foodType = FOOD_BRATWURST;
+	
 switch(foodType) {
 
 	case FOOD_CELERY:
