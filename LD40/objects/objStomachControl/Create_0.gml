@@ -6,9 +6,6 @@ randomize();
 stomach = instance_create_layer(x, y, "BGObjects", objStomach);
 stomachShadow = instance_create_layer(x, y, "FG_Shadows", objStomachShadow);
 
-///For celery warning
-warnedCelery = false;
-
 acid = instance_create_layer(x, y, "Instances", objAcid);
 acid.y = stomach.y + (1 - objEsophagusControl.acidLevel) * sprite_get_height(stomach.sprite_index);
 

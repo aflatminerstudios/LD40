@@ -3,8 +3,8 @@
 
 var target = other.id;
 
-if (target.object_index == objSCelery && !objStomachControl.warnedCelery) {  
-  objStomachControl.warnedCelery = true;
+if (target.object_index == objSCelery && !objStats.warnedCelery) {  
+  objStats.warnedCelery = true;
   instance_create_depth(460, 150, -100, objCeleryWarning);
 }
 

@@ -15,7 +15,7 @@ var acidPercent = objEsophagusControl.acidLevel - objEsophagusControl.acidMin;
 var barRightX = barLeftX + barWidth
 var barBottomY = barTopY + barHeight;
 
-var acidTopY = barBottomY - acidPercent*barHeight;
+acidTopY = barBottomY - acidPercent*barHeight;
 var energyTopY = barBottomY - energyPercent*barHeight;
 
 var barColor;

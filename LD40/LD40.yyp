@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "70b354f3-7722-4d48-a34e-1163754bc7fb",
+            "Value": {
+                "id": "b0d51465-072a-49a8-8cf6-6c903937ff6d",
+                "resourcePath": "sprites\\sprGameOverWarning\\sprGameOverWarning.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "71517c31-359b-4f5b-9441-137f63ad0265",
             "Value": {
                 "id": "ce9b4f8b-0106-4201-bbea-43ec152b3673",
@@ -852,6 +860,14 @@
                 "id": "8892b82e-9a62-4706-b280-12795c8f762c",
                 "resourcePath": "sprites\/sprCompEnergyMeter\/sprCompEnergyMeter.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9522033d-aaa5-40bf-84e8-0a53a6e29885",
+            "Value": {
+                "id": "a1105423-a24f-4cd4-bbac-55f1e93ff87b",
+                "resourcePath": "objects\\objAcidEnergyWarning\\objAcidEnergyWarning.yy",
+                "resourceType": "GMObject"
             }
         },
         {

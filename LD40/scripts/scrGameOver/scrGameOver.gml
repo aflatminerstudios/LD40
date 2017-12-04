@@ -9,6 +9,7 @@ with (objStats) {
     highScore = currentScore; 
   }
   
+  acidLevel = esophagus.acidLevel;  
  
   //Go to next room
   if (alarm[0] <= 0) {
