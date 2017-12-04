@@ -4,6 +4,8 @@
 image_angle = point_direction(mouse_x, mouse_y, x, y) + 90;
 
 if (mouse_check_button(mb_any) && !inDelay) {
+  hasShot = true;
+  
   var pdist = point_distance(sprite_xoffset, sprite_yoffset, 30, 4);
   var pdir = point_direction(sprite_xoffset, sprite_yoffset, 30, 4);
 
@@ -18,4 +20,5 @@ if (mouse_check_button(mb_any) && !inDelay) {
   inDelay = true;
   
   alarm[0] = delayTime;
+  alarm[1] = checkWarning;
 }

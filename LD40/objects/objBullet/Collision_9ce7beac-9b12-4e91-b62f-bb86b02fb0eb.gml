@@ -3,6 +3,11 @@
 
 var target = other.id;
 
+if (target.object_index == objSCelery && !objStomachControl.warnedCelery) {  
+  objStomachControl.warnedCelery = true;
+  instance_create_depth(460, 150, -100, objCeleryWarning);
+}
+
 
 if (target.numSplits < target.maxSplits) {
   //scrSplitFood(target);
@@ -10,4 +15,5 @@ if (target.numSplits < target.maxSplits) {
   instance_destroy();
 } else {
   scrDestroyFood(target);
+  instance_destroy();
 }

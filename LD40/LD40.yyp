@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1f4b43b0-e681-4032-ac6c-63672c8c9bde",
+            "Value": {
+                "id": "1d0a50cf-888b-49dc-8028-639ac2b97a37",
+                "resourcePath": "objects\\objBratwurstWarning\\objBratwurstWarning.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "21d4f660-2a13-4031-84d6-a406289449b8",
             "Value": {
                 "id": "7ef0d774-250f-495f-92df-7a5c438d55b1",
@@ -663,6 +671,14 @@
             }
         },
         {
+            "Key": "74fe4d01-eb57-4a6c-bddf-bd17d8d1cb36",
+            "Value": {
+                "id": "f2ef0835-cc29-4dd1-8ada-2a62f60b23fc",
+                "resourcePath": "objects\\objCeleryWarning\\objCeleryWarning.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "78b7f717-413b-47c9-8dd1-f7f57be7814f",
             "Value": {
                 "id": "3ba25fad-fcee-4e5d-b644-7201195eb9d2",
@@ -724,6 +740,14 @@
                 "id": "15fcd51e-1929-42ac-8044-fdb45ed0a5b9",
                 "resourcePath": "sounds\/sndAcidSplash3\/sndAcidSplash3.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "82d02a1a-b1cf-4d15-aa28-ada904892d48",
+            "Value": {
+                "id": "cfa62fd1-f933-474f-8611-dd63ddfda720",
+                "resourcePath": "sprites\\sprBratwurstWarning\\sprBratwurstWarning.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1212,6 +1236,14 @@
                 "id": "6508cf8c-a5ae-4bdb-a67e-107b4a02761e",
                 "resourcePath": "objects\/objCompFood\/objCompFood.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ecc6d79d-d4a2-4d86-bc26-415d4946d5e1",
+            "Value": {
+                "id": "9a978103-68de-4257-8831-685019bd7ca1",
+                "resourcePath": "sprites\\sprDontShootCelery\\sprDontShootCelery.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

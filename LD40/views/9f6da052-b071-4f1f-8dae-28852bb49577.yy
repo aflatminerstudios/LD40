@@ -16,7 +16,9 @@
         "a4297fe5-b101-4191-b392-97181c390657",
         "843ab8fd-6855-4569-9cae-09205fe53cd6",
         "f0d51111-b6df-424e-8faf-4af159798449",
-        "f4e2cf5e-a848-4dbb-b853-7d92d2a52758"
+        "f4e2cf5e-a848-4dbb-b853-7d92d2a52758",
+        "74fe4d01-eb57-4a6c-bddf-bd17d8d1cb36",
+        "1f4b43b0-e681-4032-ac6c-63672c8c9bde"
     ],
     "filterType": "GMObject",
     "folderName": "Stomach",
