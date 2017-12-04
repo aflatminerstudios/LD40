@@ -1,8 +1,8 @@
 /// @description Draw meter based on energy level
 
 // Tweakable values
-var barHeight = 400;
-var barWidth = 20;
+var barWidth = image_xscale * sprite_get_width(self.sprite_index);
+var barHeight = image_yscale * sprite_get_height(self.sprite_index);
 var barLeftX = x;
 var barTopY = y;
 
