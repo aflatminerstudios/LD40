@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "0558b2ad-ab7c-4c37-be10-3566a040b3dd",
+            "Value": {
+                "id": "7728b519-9f10-4626-acad-75e0822c6c9a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objCompetitionClickArea\/objCompetitionClickArea.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07e05f4c-46c1-4001-84dd-a10e9fc77387",
             "Value": {
                 "id": "c323d63e-ec94-4162-be25-8db89df46214",
