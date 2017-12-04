@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-sprite_delete(sprite_index);
+image_xscale = 0.75;
+image_yscale = 0.75;
