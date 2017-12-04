@@ -10,8 +10,8 @@ draw_set_font(fontGameOverSmall);
 draw_text(400, 50, "Session High Score: " + string(objStats.highScore));
 draw_set_font(fontGameOverLarge);
 draw_text(400, 150, "Game Over!");
-draw_set_font(fontGameOver);
-draw_text(400, 350, "Your score was " + string(objStats.currentScore));
+draw_set_font(fontGameOverLarge);
+draw_text(400, 300, "Your score: " + string(objStats.currentScore));
 
 
 
