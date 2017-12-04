@@ -1,7 +1,13 @@
 /// @description Shoot
 // You can write your code in this editor
 
+var pdist = point_distance(sprite_xoffset, sprite_yoffset, 30, 4);
+var pdir = point_direction(sprite_xoffset, sprite_yoffset, 30, 4);
 
-var bullet = instance_create_layer(x, y, "Instances", objBullet);
+var newx = x + lengthdir_x(pdist, pdir + image_angle);
+var newy = y + lengthdir_y(pdist, pdir + image_angle);
+
+var bullet = instance_create_layer(newx, newy, "Instances", objBullet);
 bullet.targetX = mouse_x;
 bullet.targetY = mouse_y;
+
