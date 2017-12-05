@@ -11,6 +11,6 @@ if (acidLevel >= 0.25 && !objStats.warnedAcidEnergy) {
   instance_create_depth(energyMeter.x + energyMeter.sprite_width + 10, energyMeter.acidTopY, -100, objAcidEnergyWarning);
 }
 
-if (acidLevel >= 1) {
+if (acidLevel >= 0.8) {
   scrGameOver(); 
 }
