@@ -6,7 +6,23 @@ var whichFood = argument0;
 
 //Increase acid level
 with(objEsophagusControl) {
-  acidLevel += whichFood.acidIncreaseRate * (1 / power(whichFood.maxSplits, whichFood.numSplits));  
+  var mult;
+  switch(whichFood.numSplits) {
+  case 0:
+    mult = 1;
+    break;
+  case 1:
+    mult = 0.4;
+    break;
+  case 2:
+    mult = 0.15;
+    break;
+  }
+  if (whichFood.acidIncreaseRate <= 0) {
+    acidLevel += whichFood.acidIncreaseRate * (1 / power(whichFood.maxSplits, whichFood.numSplits));  
+  } else {
+    acidLevel += whichFood.acidIncreaseRate * mult;  
+  }
   acidLevel = clamp(acidLevel, acidMin, 1);  
 }
 
