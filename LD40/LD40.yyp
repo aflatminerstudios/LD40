@@ -1179,6 +1179,25 @@
             }
         },
         {
+            "Key": "5ad72755-2d68-4bce-a668-05a97c9dc15f",
+            "Value": {
+                "id": "0e72dd2c-3821-46ef-a19e-05729423c7ca",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprGameOverWarning3\/sprGameOverWarning3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5d27d6fd-3790-4666-a67d-0be3ae5dc474",
             "Value": {
                 "id": "1b1a1791-0007-422a-8eb9-bcc5a81f52d0",
