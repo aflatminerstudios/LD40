@@ -362,6 +362,25 @@
             }
         },
         {
+            "Key": "281ccb19-d453-4a8c-8d43-8fc884be3750",
+            "Value": {
+                "id": "22921acc-82cd-4ca8-ae8d-053797470984",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndGameOver\/sndGameOver.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2a10a7b6-3776-44ad-bd4b-66c0d6eb0aaa",
             "Value": {
                 "id": "bf0a4cf0-9660-4cd1-b8e3-ea1c078563b3",

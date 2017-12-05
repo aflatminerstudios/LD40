@@ -14,6 +14,8 @@ with (objStats) {
   //Go to next room
   if (alarm[0] <= 0) {
     alarm[0] = room_speed;
+		
+		audio_play_sound(sndGameOver, 0, false);
     
     //Destroy all falling food
     with (objSFood) {
@@ -42,4 +44,3 @@ with (objCompetitor) {
   alarm[0] = -1;
   alarm[1] = -1;
 }
-
