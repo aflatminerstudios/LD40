@@ -14,6 +14,8 @@ with (objStats) {
   //Go to next room
   if (alarm[0] <= 0) {
     alarm[0] = room_speed;
+		
+		audio_play_sound(sndGameOver, 0, false);
     
     //Destroy all falling food
     with (objSFood) {
@@ -36,7 +38,9 @@ with (objStats) {
 }
 
 with (objCompetitor) {
+	state = COMPETITOR_EATING; // Hide the Eat speech bubble
+	image_index = 9; // Stop at stuffing the face pose
+	image_speed = 0;
   alarm[0] = -1;
   alarm[1] = -1;
 }
-

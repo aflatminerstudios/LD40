@@ -1,14 +1,14 @@
 {
-    "id": "399f6bd7-afc9-48f8-9f50-f62f89721e9f",
+    "id": "281ccb19-d453-4a8c-8d43-8fc884be3750",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sndMainTheme",
+    "name": "sndGameOver",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
-    "kind": 3,
+    "kind": 0,
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.1
+    "volume": 0.8
 }
