@@ -36,6 +36,9 @@ with (objStats) {
 }
 
 with (objCompetitor) {
+	state = COMPETITOR_EATING; // Hide the Eat speech bubble
+	image_index = 9; // Stop at stuffing the face pose
+	image_speed = 0;
   alarm[0] = -1;
   alarm[1] = -1;
 }

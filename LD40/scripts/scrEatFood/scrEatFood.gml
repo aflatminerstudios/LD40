@@ -1,5 +1,9 @@
 /// scrEatFood()
 
+// Check if e are in game over state
+if(objStats.alarm[0] > 0)
+	return;
+	
 var competitor = global.competitor;
 
 competitor.image_index = competitor.eatingImageIndex;
