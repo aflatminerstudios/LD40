@@ -14,8 +14,7 @@ time = 0;
 
 alarm[0] = room_speed * 1;
 
-/*
+
 if (!audio_is_playing(sndMainTheme)) {
   audio_play_sound(sndMainTheme, 100, true); 
 }
-*/
