@@ -3,7 +3,7 @@
 
 image_angle = point_direction(mouse_x, mouse_y, x, y) + 90;
 
-if (mouse_check_button_pressed(mb_any) && !inDelay) {
+if (mouse_check_button_pressed(mb_any) && !inDelay && (objStats.alarm[0] <= 0)) {
   hasShot = true;
   
   var pdist = point_distance(sprite_xoffset, sprite_yoffset, 30, 4);
